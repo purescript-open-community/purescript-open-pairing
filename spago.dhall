@@ -1,7 +1,3 @@
-{-
-Welcome to a Spago project!
-You can edit this file as you like.
--}
 { name = "open-pairing"
 , dependencies =
   [ "console"
@@ -19,4 +15,6 @@ You can edit this file as you like.
   ]
 , packages = ./packages.dhall
 , sources = [ "src/**/*.purs", "test/**/*.purs" ]
+, license = "Apache-2.0"
+, repository = "https://github.com/purescript-open-community/purescript-open-pairing"
 }
