@@ -4,3 +4,8 @@ output/
 .psc-package
 .psc-ide-port
 .purs-repl
+
+generated-docs/html/*
+generated-docs/md/*
+!generated-docs/md/Data.Functor.Pairing.Co.md
+!generated-docs/md/Data.Functor.Pairing.md
