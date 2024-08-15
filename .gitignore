@@ -4,6 +4,7 @@ output/
 .psc-package
 .psc-ide-port
 .purs-repl
+.spago
 
 generated-docs/html/*
 generated-docs/md/*
