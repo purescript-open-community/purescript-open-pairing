@@ -14,8 +14,8 @@ jobs:
 
       - uses: purescript-contrib/setup-purescript@main
         with:
-          purs: "unstable"
-          purs-tidy: "unstable"
+          purescript: "latest"
+          purs-tidy: "latest"
           spago: "unstable"
 
       - name: Build source
