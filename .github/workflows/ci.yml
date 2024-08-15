@@ -14,15 +14,15 @@ jobs:
 
       - uses: purescript-contrib/setup-purescript@main
         with:
-          purescript: "latest"
-          purs-tidy: "latest"
-          spago: "next"
+          purescript: "unstable"
+          purs-tidy: "unstable"
+          spago: "unstable"
 
       - name: Build source
-        run: spago build --pedantic-packages
+        run: spago build --censor-stats --strict --pedantic-packages
 
       - name: Run tests
-        run: spago test --pedantic-packages
+        run: spago test --censor-stats --strict --pedantic-packages
 
       - name: Verify formatting
         run: purs-tidy check src test
